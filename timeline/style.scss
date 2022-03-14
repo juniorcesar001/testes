@@ -1,0 +1,25 @@
+$green-bra: #00DF5E;
+$green-win-bra: #14A050;
+$red-lose-bra: #EA463B;
+$gray-tie-bra: #E9E9E9;
+$gray-dark-bra: #757575;
+$black-light-bra: #363636;
+$black-dark-bra: #262626;
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('fonts/gotham/Gotham-Black.ttf?v2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.vitrine {
+
+}
+
+@media (max-width: 700px) {
+    .vitrine {
+        
+    }
+}

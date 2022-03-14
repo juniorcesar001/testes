@@ -1,0 +1,37 @@
+{
+  "name": "NovoLayoutFutFanatics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/futfanatics-ti/fut-nacional-2020"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/futfanatics-ti/fut-nacional-2020",
+  "dependencies": {
+    "bourbon": "^5.0.0"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.13.1",
+    "jshint-stylish": "^2.2.1",
+    "pump": "^1.0.3"
+  }
+}

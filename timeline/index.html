@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<section class="timeline">
+    <h2 class="timeline-title">Linha do tempo</h2>
+
+    <div class="container-fluid">
+
+        <div class="timeline-slick"></div>
+
+        <div class="timeline-nav">
+            
+        </div>
+    </div>
+</section>
+
+<section class="table-brao">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="title">Lorem <b>ipsum dolor</b></h2>
+                <p class="subtitle">No aplicativo da Fut você também poderá contar com várias ofertas exclusivas. Instale o App em seu smartphone Android ou iOS antes do dia 23 de novembro.</p>
+            </div>
+        </div>
+        <div class="row table-brao-row">
+            <div class="col-12 col-md-9">
+                <table class="table">
+                    <tr class="table_head">
+                        <th>POS</th>
+                        <th>Time</th>
+                        <th>PTS</th>
+                        <th>J</th>
+                        <th>V</th>
+                        <th>E</th>
+                        <th>D</th>
+                        <th>GP</th>
+                        <th>GC</th>
+                        <th>SG</th>
+                        <th>%</th>
+                        <th>Recentes</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="round">
+                    <div class="round-head">
+                        <button class="round-head-prev round-head-button"> <i class="icon-arrow-left"> </i> </button>
+                        <div class="round-head-title">Rodada <span class="round-head-title-number">36</span> </div>
+                        <button class="round-head-next round-head-button"> <i class="icon-arrow-right"> </i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="see-more">Veja mais</button>
+    
+    
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="slick/slick.min.js"></script>
+<script src="ejs.min.js"></script>
+
+
+<script id="templateTimeline" type="text/html">
+
+    <% timeline[0].forEach(item => { %>
+        <% console.log(item) %>
+        <div class="year" data-year="<%= item.ano %>">
+            <div>
+                <div class="d-flex">
+                    <div class="col-12 col-md-6 d-flex">
+                        <div class="year-card year-champion">
+                            <div class="year-card-left">
+                                <img src="img/campeao_2008.png" alt="" class="year-card-img">
+                            </div>
+
+                            <div class="year-card-right">
+                                <div class="year-card-right-escudo">
+                                    <img class="year-card-right-escudo-wheel" src="img/roda.png" alt="">
+                                    <img class="year-card-right-escudo-team" src="https://cdn.futfanatics.com.br/futfanatics-nacional/paginas-personalizadas/brasileirao/escudos/icon_.svg" alt="">
+                                </div>
+                                <h4 class="year-card-right-title">Campeão do ano: <%= item['1-lugar'] %></h4>
+                                <p class="year-card-right-text">2º Lugar: <%= item['2-lugar'] %></p>
+                                <p class="year-card-right-text">3º Lugar: <%= item['3-lugar'] %></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 d-flex">
+                        <div class="year-card year-highlight">
+                            <div class="year-card-header">
+                                <img src="img/jogador_2008.png" alt="" class="year-highlight-img">
+                            </div>
+
+                            <div class="year-card-body">
+                                <h4 class="year-card-body-title">Artilheiro(s)</h4>
+                                    <% console.log(item.artilheiro) %>
+                                    <% item.artilheiro.forEach(art => { %>
+                                        <p class="year-card-body-text">
+                                        </p>
+                                    <% }); %>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="year-card year-fact">
+                            <div class="year-card-header">
+                                <img src="img/foto_2008.png" alt="<%= item.descricao %>" class="year-fact-img">
+                            </div>
+
+                            <div class="year-card-body">
+                                <h4 class="year-card-body-title">Curiosidades</h4>
+                                <p class="year-card-body-text"><%= item.descricao %></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    <% }) %>
+</script>
+
+<script id="templateTable" type="text/html">
+
+<% times[0].forEach(item => { %>
+    <tr class="table_content">
+        <td><%= item.posicao %>º</td>
+        <td><%= item.time.nome_popular %></td>
+        <td><%= item.pontos %></td>
+        <td><%= item.jogos %></td>
+        <td><%= item.vitorias %></td>
+        <td><%= item.empates %></td>
+        <td><%= item.derrotas %></td>
+        <td><%= item.gols_pro %></td>
+        <td><%= item.gols_contra %></td>
+        <td><%= item.saldo_gols %></td>
+        <td><%= item.aproveitamento %>%</td>
+        <td class="table_content_recent">
+            <ul>
+                <% item.ultimos_jogos.forEach(result => {  %>
+                    <% if (result == "d"){ %>
+                        <li><i class="icon-lose"></i></li>
+                    <% } else if (result == "e"){ %>
+                        <li><i class="icon-tie"></i></li>
+                    <% } else if (result == "v"){ %>
+                        <li><i class="icon-win"></i></li>
+                    <% } %>
+                <% }); %>
+            </ul>
+        </td>
+    </tr>
+<% }); %>
+</script>
+
+<script id="templateRounds" type="text/html">
+    
+<% rounds[0][0].partidas.forEach(item => { %>
+    <div class="round-games">
+        <div class="round-games-row">
+            <span class="date">
+                <%= item.data_realizacao_iso %>
+            </span>
+            <div class="scoreboard">
+                <div class="scoreboard-time">
+                    <i class="icon-<%= item.time_mandante.sigla %>"></i>
+                    <span><%= item.time_mandante.sigla %></span>
+                </div>
+                <div class="scoreboard-result">
+                    <span class="home"><%= item.placar_mandante %></span>
+                    <span class="x">x</span>
+                    <span class="visitor"><%= item.placar_visitante %></span>
+                </div>
+                <div class="scoreboard-time">
+                    <i class="icon-<%= item.time_visitante.sigla %>"></i>
+                    <span><%= item.time_visitante.sigla %></span>
+                </div>
+            </div>
+        </div>
+        <div class="stadium"><%= item.estadio %></div>
+    </div>
+<% }); %>
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

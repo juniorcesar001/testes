@@ -1,0 +1,753 @@
+[
+    {
+        "ano" : 1971,
+        "1-lugar" : {
+            "time": "Atlético-MG",
+            "sigla": "ATL"    
+        },
+        "2-lugar" : "São Paulo",
+        "3-lugar" : "Botafogo",
+        "artilheiro" : {
+            "nome" : "Dario ",
+            "time" : "Atlético-MG",
+            "gols" : 15
+        },
+        "descricao": "Por muito tempo foi considerado o primeiro Brasileirão. A competição contou com vinte clubes convidados que foram divididos em dois grupos de dez e que se enfrentaram em turno e returno. Os 6 primeiros de cada grupo foram divididos em três grupos de quatro equipes, classificando o campeão de cada grupo para um triangular final em que o campeão foi o time que mais pontuou mais na última fase."
+    },{
+        "ano" : 1972,
+        "1-lugar" : {
+            "time": "Palmeiras",
+            "sigla": "PAL"    
+        },
+        "2-lugar" : "Botafogo",
+        "3-lugar" : "Internacional",
+        "artilheiro" : [{
+            "nome" : "Dario",
+            "time" : "Atlético-MG",
+            "gols" : 17
+        },{
+            "nome" : "Pedro Rocha",
+            "time" : "São Paulo",
+            "gols" : 17
+        }],
+        "descricao": "Foi a primeira final entre clubes de São Paulo e Rio de Janeiro. A partida que acabou em 0 x 0, com o Palmeiras de Ademir da Guia campeão por ser o time com melhor campanha."
+    },{
+        "ano" : 1973,
+        "1-lugar" : {
+            "time": "Palmeiras",
+            "sigla": "PAL"    
+        },
+        "2-lugar" : "São Paulo",
+        "3-lugar" : "Cruzeiro",
+        "artilheiro" : {
+            "nome" : "Ramón",
+            "time" : "Santa Cruz",
+            "gols" : 21
+        },
+        "descricao": "O campeonato começou com 40 clubes, mas a final foi decidida em um clássico Paulista. Palmeiras X São Paulo fizeram um jogo difícil que terminou em 0 X 0. Mais uma vez o Verdão foi campeão devido a sua melhor campanha."
+    },{
+        "ano" : 1974,
+        "1-lugar" : {
+            "time": "Vasco",
+            "sigla": "VAS"    
+        },
+        "2-lugar" : "Cruzeiro",
+        "3-lugar" : "Santos",
+        "artilheiro" : {
+            "nome" : "Roberto Dinamite ",
+            "time" : "Vasco",
+            "gols" : 16
+        },
+        "descricao": "Nascia uma lenda. Além de ser o primeiro título de um clube do Rio de Janeiro, foi também o primeiro título de artilheiro para Roberto Dinamite. O craque é até hoje o maior artilheiro da história do Brasileirão, com 190 gols."
+    },{
+        "ano" : 1975,
+        "1-lugar" : {
+            "time": "Internacional",
+            "sigla": "INT"    
+        },
+        "2-lugar" : "Cruzeiro",
+        "3-lugar" : "Fluminense",
+        "artilheiro" : {
+            "nome" : "Flávio",
+            "time" : "Internacional",
+            "gols" : 16
+        },
+        "descricao": "O Santa Cruz surpreendeu a todos, vencendo o Palmeiras por 3 x 2 e o Flamengo por 3 x 1. Foi a primeira vez que um clube do Nordeste chegou às semifinais do Brasileirão. O Santa perdeu para o Cruzeiro e ficou com a quarta colocação na competição."
+    },{
+        "ano" : 1976,
+        "1-lugar" : {
+            "time": "Internacional",
+            "sigla": "INT"    
+        },
+        "2-lugar" : "Corinthians",
+        "3-lugar" : "Atlético-MG",
+        "artilheiro" : {
+            "nome" : "Dario",
+            "time" : "Internacional",
+            "gols" : 16
+        },
+        "descricao": "Na semifinal contra o Fluminense, mais de 70.000 torcedores do Timão dividiram o Maracanã com a torcida Tricolor. O jogo terminou empatado, mas nos pênaltis os alvinegros venceram e a torcida fez a festa na casa do adversário. Foi também a consagração do Colorado, mantendo a hegemonia com o bicampeonato do torneio."
+    },{
+        "ano" : 1977,
+        "1-lugar" : {
+            "time": "São Paulo",
+            "sigla": "SAO"    
+        },
+        "2-lugar" : "Atlético-MG",
+        "3-lugar" : "Operário-MS",
+        "artilheiro" : {
+            "nome" : "Reinaldo",
+            "time" : "Atlético-MG",
+            "gols" : 28
+        },
+        "descricao": "Foi a primeira vez que o título foi decidido nos pênaltis. O Galo, mesmo tendo uma melhor campanha, viu a taça ir para o Morumbi. O Técnico Rubens Minelli, que comandou o Inter nas campanhas dos títulos de 1975 e 1976, era o técnico do Tricolor em 1977 e é o único técnico campeão do Brasileirão por 3 anos consecutivos, ao lado de Muricy Ramalho."
+    },{
+        "ano" : 1978,
+        "1-lugar" : {
+            "time": "Guarani",
+            "sigla": "GUA"    
+        },
+        "2-lugar" : "Palmeiras",
+        "3-lugar" : "Internacional",
+        "artilheiro" : {
+            "nome" : "Paulinho",
+            "time" : "Vasco",
+            "gols" : 19
+        },
+        "descricao": "O primeiro clube do interior a conquistar o campeonato Brasileiro ainda foi o responsável por revelar o ídolo Careca, sendo destaque na campanha do Bugre com direito a gol do título na grande final contra o Palmeiras."
+    },{
+        "ano" : 1979,
+        "1-lugar" : {
+            "time": "Internacional",
+            "sigla": "INT"    
+        },
+        "2-lugar" : "Vasco",
+        "3-lugar" : "Coritiba",
+        "artilheiro" : {
+            "nome" : "César",
+            "time" : "América-RJ",
+            "gols" : 13
+        },
+        "descricao": "Mesmo com 94 clubes participantes, o Colorado conquistou seu tricampeonato de forma invicta. Foram vinte e três jogos, com apenas seis empates em todo o campeonato. Nos dois jogos da final contra o Vasco, o Inter venceu por 2 X 0 no Maracanã e por 2 X 1 no Beira Rio."
+    },{
+        "ano" : 1980,
+        "1-lugar" : {
+            "time": "Flamengo",
+            "sigla": "FLA"    
+        },
+        "2-lugar" : "Atlético-MG",
+        "3-lugar" : "Internacional",
+        "artilheiro" : {
+            "nome" : "Zico",
+            "time" : "Flamengo",
+            "gols" : 21
+        },
+        "descricao": "Com Zico brilhando em campo, a equipe Rubro-Negra disputou a final contra o esquadrão do Atlético-MG. Mesmo perdendo o primeiro jogo por 1 x 0, o Mengão se recuperou e venceu a segunda partida da final por 3 x 2. Como teve melhor campanha nas semis, finalmente a Nação pôde soltar o grito de campeão. "
+    },{
+        "ano" : 1981,
+        "1-lugar" : {
+            "time": "Grêmio",
+            "sigla": "GRE"    
+        },
+        "2-lugar" : "São Paulo",
+        "3-lugar" : "Ponte Preta",
+        "artilheiro" : {
+            "nome" : "Nunes ",
+            "time" : "Flamengo",
+            "gols" : 16
+        },
+        "descricao": "O mesmo Ênio Andrade que comandou o Colorado em 1979 rumo ao tri do Brasileirão, também foi o responsável por levar o Grêmio até a taça de campeão brasileiro."
+    },{
+        "ano" : 1982,
+        "1-lugar" : {
+            "time": "Flamengo",
+            "sigla": "FLA"    
+        },
+        "2-lugar" : "Grêmio",
+        "3-lugar" : "Guarani",
+        "artilheiro" : {
+            "nome" : "Zico ",
+            "time" : "Flamengo",
+            "gols" : 21
+        },
+        "descricao": "O Flamengo brilhava na 'Era Zico'. A equipe que em 1982 já era campeã do mundo levou também o campeonato brasileiro."
+    },{
+        "ano" : 1983,
+        "1-lugar" : {
+            "time": "Flamengo",
+            "sigla": "FLA"    
+        },
+        "2-lugar" : "Santos",
+        "3-lugar" : "Atlético-MG",
+        "artilheiro" : {
+            "nome" : "Serginho",
+            "time" : "Santos",
+            "gols" : 22
+        },
+        "descricao": "O maior público de uma final de Campeonato Brasileiro: 155.253 viram o Flamengo vencer o Santos por 3 X 0 em uma final inesquecível que deu o Tricampeonato brasileiro ao Rubro-Negro."
+    },{
+        "ano" : 1984,
+        "1-lugar" : {
+            "time": "Fluminense",
+            "sigla": "FLU"    
+        },
+        "2-lugar" : "Vasco",
+        "3-lugar" : "Grêmio",
+        "artilheiro" : {
+            "nome" : "Roberto Dinamite ",
+            "time" : "Vasco",
+            "gols" : 16
+        },
+        "descricao": "Na primeira final carioca do Brasileirão, a festa acabou nas Laranjeiras. O Flu deu conta de segurar o fortíssimo ataque Vascaíno e ainda marcar, vencendo o primeiro jogo por 1 X 0. No segundo jogo, o Tricolor do Rio só precisou administrar o placar e se sagrou campeão no empate em 0 X 0."
+    },{
+        "ano" : 1985,
+        "1-lugar" : {
+            "time": "Coritiba",
+            "sigla": "CTB"    
+        },
+        "2-lugar" : "Bangu-RJ",
+        "3-lugar" : "Brasil-RS",
+        "artilheiro" : {
+            "nome" : "Edmar ",
+            "time" : "Guarani",
+            "gols" : 20
+        },
+        "descricao": "Na final mais inusitada de todos os tempos do Brasileirão, o Coxa derrotou o Galo nas semis  e na final o surpreendente Bangu do famoso bicheiro Castor de Andrade, levando a taça do Brasileirão para o Paraná pela primeira vez."
+    },{
+        "ano" : 1986,
+        "1-lugar" : {
+            "time": "São Paulo",
+            "sigla": "SAO"    
+        },
+        "2-lugar" : "Guarani",
+        "3-lugar" : "Atlético-MG",
+        "artilheiro" : {
+            "nome" : "Careca ",
+            "time" : "São Paulo",
+            "gols" : 25
+        },
+        "descricao": "Careca e Evair, empatados com 24 gols no campeonato. Até o último minuto da prorrogação estava 3 x 2 para o Guarani numa final eletrizante contra o São Paulo. Careca resolveu fazendo um golaço para empatar e levar a disputa para os pênaltis. Levou não só o título do campeonato, como também a artilharia do brasileirão."
+    },{
+        "ano" : 1987,
+        "1-lugar" : {
+            "time": "Sport",
+            "sigla": "SPO"    
+        },
+        "2-lugar" : "Guarani",
+        "3-lugar" : "Flamengo",
+        "artilheiro" : {
+            "nome" : "Muller ",
+            "time" : "São Paulo",
+            "gols" : 10
+        },
+        "descricao": "O Brasileirão de 1987 é uma grande polêmica entre o Sport e o Flamengo. Após a CBF anunciar que não iria organizar um campeonato nacional devido a grave crise financeira vivida pela entidade na época, alguns dos clubes de maior relevância nacional decidiram criar o Clubes dos 13 e organizar a Copa União, a qual o Flamengo foi o grande campeão. Mas essa competição acabou gerando insatisfação e protestos entre os outros clubes que foram excluídos da competição. Assim a CBF decidiu por fim realizar o campeonato, onde os clubes foram divididos em dois módulos, de forma que os campeões e vice de cada módulo se enfrentariam para decidir quem seria o campeão brasileiro de 87. Flamengo e Internacional, respectivamente campeão e vice da Copa União, decidem não participar do quadrangular final e foram eliminados por WO. Por isso, oficialmente o campeão brasileiro de 1987 é o Sport. O Flamengo chegou a mover uma ação exigindo o título de campeão Brasileiro, mas perdeu em todas as instâncias e o título foi deixado com o Sport."
+    },{
+        "ano" : 1988,
+        "1-lugar" : {
+            "time": "Bahia",
+            "sigla": "BAH"    
+        },
+        "2-lugar" : "Internacional",
+        "3-lugar" : "Fluminense",
+        "artilheiro" : {
+            "nome" : "Nilson ",
+            "time" : "Internacional",
+            "gols" : 15
+        },
+        "descricao": "Foi a primeira vez que o Campeonato Brasileiro teve oficialmente rebaixados para a segunda divisão. Anteriormente houve a Taça Prata e a Taça Bronze, considerado o equivalente as series B e C, mas antes de 88 nenhum clube foi realmente considerado rebaixado. Bangu, Santa Cruz, Criciúma e América-RJ foram os primeiros rebaixados na história do torneio."
+    },{
+        "ano" : 1989,
+        "1-lugar" : {
+            "time": "Vasco",
+            "sigla": "VAS"    
+        },
+        "2-lugar" : "São Paulo",
+        "3-lugar" : "Cruzeiro",
+        "artilheiro" : {
+            "nome" : "Túlio ",
+            "time" : "Goiás",
+            "gols" : 11
+        },
+        "descricao": "Houve um 'Torneio da Morte' entre os seis últimos colocados da competição. Com a pontuação começando do zero, todos os seis times se enfrentariam entre si em turno e returno, onde apenas o campeão e o vice escapariam do rebaixamento. Atlético-PR, Guarani, Sport e Coritiba foram os rebaixados para a série B."
+    },{
+        "ano" : 1990,
+        "1-lugar" : {
+            "time": "Corinthians",
+            "sigla": "COR"    
+        },
+        "2-lugar" : "São Paulo",
+        "3-lugar" : "Grêmio",
+        "artilheiro" : {
+            "nome" : "Charles ",
+            "time" : "Bahia",
+            "gols" : 11
+        },
+        "descricao": "O Corinthians conquista seu primeiro título de campeão brasileiro com um gol de Tupãzinho, que dá um carrinho na bola depois de uma confusão dentro da área com a zaga Tricolor, que se enrolou e não conseguindo tirar a bola de perigo. Um dos gols mais importantes na história do Timão."
+    },{
+        "ano" : 1991,
+        "1-lugar" : {
+            "time": "São Paulo",
+            "sigla": "SAO"    
+        },
+        "2-lugar" : "Bragantino",
+        "3-lugar" : "Atlético-MG",
+        "artilheiro" : {
+            "nome" : "Paulinho McLaren ",
+            "time" : "Santos",
+            "gols" : 15
+        },
+        "descricao": "Depois de dois vice-campeonatos, o Tricolor de Raí, Leonardo, Zetti e Muller não perdoou e conquistou seu tricampeonato brasileiro encima do surpreendente Bragantino de Carlos Alberto Parreira."
+    },{
+        "ano" : 1992,
+        "1-lugar" : {
+            "time": "Flamengo",
+            "sigla": "FLA"    
+        },
+        "2-lugar" : "Botafogo",
+        "3-lugar" : "Bragantino",
+        "artilheiro" : {
+            "nome" : "Bebeto ",
+            "time" : "Vasco",
+            "gols" : 18
+        },
+        "descricao": "Um dia após o Flamengo vencer o Botafogo por 3 X 0 na primeira partida da final, Renato Gaúcho, que era jogador do Botafogo foi a um churrasco na casa de Gaúcho do Flamengo. A torcida e a diretoria do Fogão não perdoaram e afastaram o jogador que não disputou o segundo jogo da final."
+    },{
+        "ano" : 1993,
+        "1-lugar" : {
+            "time": "Palmeiras",
+            "sigla": "PAL"    
+        },
+        "2-lugar" : "Vitória",
+        "3-lugar" : "Corinthians",
+        "artilheiro" : {
+            "nome" : "Guga ",
+            "time" : "Santos",
+            "gols" : 14
+        },
+        "descricao": "Depois de 16 anos na fila, o Verdão voltou com o timaço montado pela Parmalat, que contava com Edmundo, Mazinho, Evair, Edilson, entre outros. O Palmeiras finalmente conquistava mais um título Brasileiro."
+    },{
+        "ano" : 1994,
+        "1-lugar" : {
+            "time": "Palmeiras",
+            "sigla": "PAL"    
+        },
+        "2-lugar" : "Corinthians",
+        "3-lugar" : "Guarani",
+        "artilheiro" : [{
+            "nome" : "Tulio",
+            "time" : "Botafogo",
+            "gols" : 19
+        },{
+            "nome" : "Amoroso",
+            "time" : "Guarani",
+            "gols" : 19
+        }],
+        "descricao": "A disputa pela artilharia do campeonato entre Túlio e Amoroso foi um show à parte durante toda a competição. Ambos os jogadores prometeram dar show e não fizeram pouco: foram 19 gols cada só na primeira fase. Túlio saiu primeiro da disputa com a eliminação do Botafogo, mas Amoroso se contundiu nas primeiras partidas da segunda fase e não disputou mais o campeonato, fazendo com que a artilharia do campeonato terminasse empatada."
+    },{
+        "ano" : 1995,
+        "1-lugar" : {
+            "time": "Botafogo",
+            "sigla": "BOT"    
+        },
+        "2-lugar" : "Santos",
+        "3-lugar" : "Cruzeiro",
+        "artilheiro" : {
+            "nome" : "Tulio",
+            "time" : "Botafogo",
+            "gols" : 23
+        },
+        "descricao": "Pela primeira vez o Fogão conquista o título de campeão nacional, até então não unificado com torneios anteriores a 1971. Liderado por Túlio, até hoje um de seus maiores ídolos, o clube conquistou seu primeiro Brasileirão em uma final Alvinegra contra o Santos."
+    },{
+        "ano" : 1996,
+        "1-lugar" : {
+            "time": "Grêmio",
+            "sigla": "GRE"    
+        },
+        "2-lugar" : "Portuguesa",
+        "3-lugar" : "Atlético-MG",
+        "artilheiro" : [{
+            "nome" : "Renaldo",
+            "time" : "Atlético-MG",
+            "gols" : 16
+        },{
+            "nome" : "Paulo Nunes",
+            "time" : "Grêmio",
+            "gols" : 16
+        }],
+        "descricao": "No segundo jogo da final, a grande pergunta era se a Portuguesa conseguiria segurar o Grêmio dentro do Estádio Olímpico. A Lusa mandou bem vencendo o primeiro jogo no Canindé por 2 x 0, mas o Grêmio jogando em casa era muito difícil de segurar. Na partida da volta, Paulo Nunes marcou para o tricolor aos três minutos de jogo. O resultado ainda era favorável a Portuguesa. Mas aos 84 minutos de jogo, Aílton entrou decidido a marcar. Com um chute certeiro fez o gol que deu o título ao Grêmio, que tinha a melhor campanha no brasileirão e a vantagem do empate no saldo de gols."
+    },{
+        "ano" : 1997,
+        "1-lugar" : {
+            "time": "Vasco",
+            "sigla": "VAS"    
+        },
+        "2-lugar" : "Palmeiras",
+        "3-lugar" : "Internacional",
+        "artilheiro" : {
+            "nome" : "Edmundo ",
+            "time" : "Vasco",
+            "gols" : 29
+        },
+        "descricao": "Depois de ser a grande estrela que salvou o Vasco do rebaixamento em 1996, o craque Edmundo resolveu ser a estrela que levaria o clube ao título de campeão Brasileiro. Além disso, ainda superou, por um gol, o então recorde de Reinaldo de 28 gols em uma temporada no brasileirão, marcando 29 gols."
+    },{
+        "ano" : 1998,
+        "1-lugar" : {
+            "time": "Corinthians",
+            "sigla": "COR"    
+        },
+        "2-lugar" : "Cruzeiro",
+        "3-lugar" : "Santos",
+        "artilheiro" : {
+            "nome" : "Viola ",
+            "time" : "Santos",
+            "gols" : 21
+        },
+        "descricao": "Depois de duas difíceis partidas finais contra o Cruzeiro, que terminaram em empate por 2 x 2 e 1 x 1, respectivamente, foi a vez Timão se acertar com o grande elenco que tinha e conquistar o bicampeonato brasileiro."
+    },{
+        "ano" : 1999,
+        "1-lugar" : {
+            "time": "Corinthians",
+            "sigla": "COR"    
+        },
+        "2-lugar" : "Atlético-MG",
+        "3-lugar" : "Vitória",
+        "artilheiro" : {
+            "nome" : "Guilherme ",
+            "time" : "Atlético-MG",
+            "gols" : 28
+        },
+        "descricao": "Nesta temporada a CBF mudou a regra de cartão amarelo. Os jogadores só seriam suspensos de jogos após o quinto amarelo, ao invés do terceiro. Isto favoreceu a impunidade e atitudes violentas entre os jogadores."
+    },{
+        "ano" : 2000,
+        "1-lugar" : {
+            "time": "Vasco",
+            "sigla": "VAS"    
+        },
+        "2-lugar" : "São Caetano",
+        "3-lugar" : "Cruzeiro",
+        "artilheiro" : [{
+            "nome" : "Magno Alves ",
+            "time" : "Fluminense",
+            "gols" : 20
+        },{
+            "nome" : "Dill",
+            "time" : "Goiás",
+            "gols" : 20
+        },{
+            "nome" : "Romário",
+            "time" : "Vasco",
+            "gols" : 20
+        }],
+        "descricao": "O primeiro jogo da final foi interrompido em 1 x 1, após um acidente nas arquibancadas de São Januário, onde 150 pessoas ficaram feridas aos 40 minutos de partida. O jogo precisou ser remarcado e só poderia ocorrer já em 2001, depois do Vasco precisar lidar com a falta de jogadores que tinham contrato apenas até o último dia de 2000 e renegociar as férias de jogadores que estariam apenas começando a pré-temporada. Com a vantagem do empate, o Cruzmaltino não perdeu tempo e marcou seu primeiro gol aos 30 minutos. O São Caetano tentou resistir e empatou aos 37, mas o Vasco reagiu rápido e marcou o segundo aos 39. Romário ainda marcou o seu aos 53 min de jogo, fechando o placar e garantindo o título para o clube carioca."
+    },{
+        "ano" : 2001,
+        "1-lugar" : {
+            "time": "Atlético-PR",
+            "sigla": "CAP"    
+        },
+        "2-lugar" : "São Caetano",
+        "3-lugar" : "Fluminense",
+        "artilheiro" : {
+            "nome" : "Romário",
+            "time" : "Vasco",
+            "gols" : 21
+        },
+        "descricao": "Até o momento, a edição de 2001 do Campeonato Brasileiro foi a última edição a contar com todos os antigos campeões disputando a primeira divisão juntos e também a última vez em que houve um campeão inédito. O São Caetano, mesmo não sendo campeão, teve o grande feito de chegar a duas finais seguidas na primeira divisão do torneio."
+    },{
+        "ano" : 2002,
+        "1-lugar" : {
+            "time": "Santos",
+            "sigla": "SAN"    
+        },
+        "2-lugar" : "Corinthians",
+        "3-lugar" : "Grêmio",
+        "artilheiro" : [{
+            "nome" : "Rodrigo Fabri",
+            "time" : "Grêmio",
+            "gols" : 19
+        },{
+            "nome" : "Luis Fabiano",
+            "time" : "São Paulo",
+            "gols" : 19
+        }],
+        "descricao": "O Paysandu ficou em 20° lugar no Brasileirão e mesmo assim se classificou para a fase de grupos da Libertadores de 2003 por ser o campeão da Copa dos Campeões. Assim como Atlético MG (8°), Cruzeiro (9°), Vasco (15°), Flamengo (18°), Internacional (21°) e Palmeiras (24°/rebaixado) se classificaram para a Sul-Americana de 2003 junto com Fluminense (4°), São Paulo (5°) e São Caetano(6°) graças ao ranking da CONMEBOL. "
+    },{
+        "ano" : 2003,
+        "1-lugar" : {
+            "time": "Cruzeiro",
+            "sigla": "CRU"    
+        },
+        "2-lugar" : "Santos",
+        "3-lugar" : "São Paulo",
+        "artilheiro" : {
+            "nome" : "Dimba ",
+            "time" : "Goiás",
+            "gols" : 31
+        },
+        "descricao": "Foi o primeiro Brasileirão no sistema de pontos corridos. No primeiro turno, a Ponte Preta escalou irregularmente um jogador nas partidas contra o Internacional (1 ponto) e Juventude (3 pontos) e perdeu os pontos conquistados nessas partidas. O Internacional e o Juventude foram os beneficiados com os pontos perdidos pela Macaca. Além disso, o Paysandu escalou dois jogadores irregularmente, o que causou a perda de 8 pontos. Desses pontos, 3 foram para a Ponte Preta, 3 para o São Caetano, 2 para o Corinthians e mais 2 para o Fluminense. "
+    },{
+        "ano" : 2004,
+        "1-lugar" : {
+            "time": "Santos",
+            "sigla": "SAN"    
+        },
+        "2-lugar" : "Atlético-PR",
+        "3-lugar" : "São Paulo",
+        "artilheiro" : {
+            "nome" : "Washington ",
+            "time" : "Atlético-PR",
+            "gols" : 15
+        },
+        "descricao": "No segundo ano em que o Brasileirão foi disputado no sistema de pontos corridos, foi também uma das temporadas mais disputadas, já que o Athletico Paranaense foi líder por 11 rodadas seguidas, mas perdeu a posição para o Santos na penúltima rodada, e a competição teve seu campeão definido apenas após a última rodada. Além disso, também foi em 2004 que o maior artilheiro de uma única edição da competição deu seu show. Washington fez 34 gol em apenas uma temporada no Brasileirão, quando ainda jogava pelo Furacão, esse recorde até hoje ainda não foi quebrado por nenhum outro jogador."
+    },{
+        "ano" : 2005,
+        "1-lugar" : {
+            "time": "Corinthians",
+            "sigla": "COR"    
+        },
+        "2-lugar" : "Internacional",
+        "3-lugar" : "Goiás",
+        "artilheiro" : {
+            "nome" : "Romário",
+            "time" : "Vasco",
+            "gols" : 22
+        },
+        "descricao": "Esse Brasileirão ficou marcado pela anulação de onze partidas envolvendo o escândalo de manipulação de resultados do árbitro Edílson Pereira de Carvalho. O esquema garantia os resultados em sites de aposta através da compra de árbitros. Edílson era integrante do quadro da FIFA na época do escândalo. Todas as partidas que ele apitou foram anuladas e precisaram ser novamente realizadas."
+    },{
+        "ano" : 2006,
+        "1-lugar" : {
+            "time": "São Paulo",
+            "sigla": "SAO"    
+        },
+        "2-lugar" : "Internacional",
+        "3-lugar" : "Grêmio",
+        "artilheiro" : {
+            "nome" : "Souza",
+            "time" : "Goiás",
+            "gols" : 17
+        },
+        "descricao": "Uma temporada de surpresas. O Paraná Clube conseguiu pela primeira vez em sua história se classificar para a Libertadores. O Grêmio, que subiu da série B e foi direto para o 3° lugar, também garantindo uma vaga na Libertadores de 2007 junto do rival Internacional, que foi campeão da América em 2006 e já tinha sua vaga garantida no ano seguinte. O São Paulo foi campeão com uma campanha incontestável, com apenas 4 derrotas em todo o campeonato, conquistando seu quarto título nacional com 68,4% de aproveitamento."
+    },{
+        "ano" : 2007,
+        "1-lugar" : {
+            "time": "São Paulo",
+            "sigla": "SAO"    
+        },
+        "2-lugar" : "Santos",
+        "3-lugar" : "Flamengo",
+        "artilheiro" : {
+            "nome" : "Josiel ",
+            "time" : "Paraná",
+            "gols" : 20
+        },
+        "descricao": "Na conquista do seu pentacampeonato Brasileiro, o São Paulo ganhou com a melhor defesa da competição na era dos pontos corridos. Foram apenas dezenove gols sofridos em trinta e oito partidas. Não à toa, Rogério Ceni, na época titular absoluto embaixo das traves Tricolores, estabeleceu o recorde de 988 minutos sem sofrer gols."
+    },{
+        "ano" : 2008,
+        "1-lugar" : {
+            "time": "São Paulo",
+            "sigla": "SAO"    
+        },
+        "2-lugar" : "Grêmio",
+        "3-lugar" : "Cruzeiro",
+        "artilheiro" : [{
+            "nome" : "Keirrison ",
+            "time" : "Coritiba",
+            "gols" : 21
+        },{
+            "nome" : "Washington  ",
+            "time" : "Fluminense",
+            "gols" : 21
+        },{
+            "nome" : "Kléber Pereira",
+            "time" : "Santos",
+            "gols" : 21
+        }],
+        "descricao": "No ano em que conquistou seu sexto título do Brasileirão, o São Paulo se tornou também o único clube brasileiro a vencer a competição por três anos seguidos, feito que ainda não foi igualado por nenhum outro clube."
+    },{
+        "ano" : 2009,
+        "1-lugar" : {
+            "time": "Flamengo",
+            "sigla": "FLA"    
+        },
+        "2-lugar" : "Internacional",
+        "3-lugar" : "São Paulo",
+        "artilheiro" : [{
+            "nome" : "Diego Tardelli",
+            "time" : "Atlético-MG",
+            "gols" : 19
+        },{
+            "nome" : "Adriano ",
+            "time" : "Flamengo",
+            "gols" : 19
+        }],
+        "descricao": ""
+    },{
+        "ano" : 2010,
+        "1-lugar" : {
+            "time": "Fluminense",
+            "sigla": "FLU"    
+        },
+        "2-lugar" : "Cruzeiro",
+        "3-lugar" : "Corinthians",
+        "artilheiro" : {
+            "nome" : "Jonas",
+            "time" : "Grêmio",
+            "gols" : 23
+        },
+        "descricao": "Este foi o ano em que a CBF reconheceu e unificou os títulos da Taça Brasil, do Robertão e do Brasileirão. Assim, Palmeiras e Santos se tornaram os maiores campeões da competição. Na época, cada um ficou com 8 títulos após a Unificação. O Santos teve os títulos de 1961, 1962,1963,1964,1965 e 1968 reconhecidos, além dos conquistados em 2002 e 2004. E o Palmeiras teve o reconhecimento dos títulos de 1960, 1967,1967* e 1969, além dos títulos conquistados até 2010 que foram 1972, 1973, 1993 e 1994. <br> *Em 1967, o Palmeiras ganhou Taça Brasil e o Torneio Roberto Gomes Pedrosa. Depois da unificação, ambos foram reconhecidos como títulos brasileiros."
+    },{
+        "ano" : 2011,
+        "1-lugar" : {
+            "time": "Corinthians",
+            "sigla": "COR"    
+        },
+        "2-lugar" : "Vasco",
+        "3-lugar" : "Fluminense",
+        "artilheiro" : {
+            "nome" : "Borges",
+            "time" : "Santos",
+            "gols" : 23
+        },
+        "descricao": "O jogo entre Santos e Flamengo na 12° rodada do Brasileirão é uma das partidas mais inesquecíveis da história recente. Ronaldinho, pelo Flamengo, e Neymar, pelo Santos, eram as grandes estrelas dessa partida. A partida terminou em 4 X 5 para o Rubro Negro. Dos cinco gols, três foram de Ronaldinho Gaúcho. Já para Neymar, apesar da derrota Santista, o jogo ficou marcado positivamente em sua carreira graças a seu gol antológico que lhe rendeu o prêmio Puskas ao final da temporada."
+    },{
+        "ano" : 2012,
+        "1-lugar" : {
+            "time": "Fluminense",
+            "sigla": "FLU"    
+        },
+        "2-lugar" : "Atlético-MG",
+        "3-lugar" : "Grêmio",
+        "artilheiro" : {
+            "nome" : "Fred",
+            "time" : "Fluminense",
+            "gols" : 20
+        },
+        "descricao": "Foi o segundo e último ano do 'sistema' de clássicos regionais na última rodada estabelecido pela CBF para evitar que alguns times, já sem ambições na competição, deixassem de levar a sério um jogo contra outro clube que estivesse buscando o título ou vaga na Libertadores. Por isso, a última rodada do Brasileirão de 2012 teve os seguintes confrontos: Flamengo 2 X 2 Botafogo; Fluminense 1 X 2 Vasco; Santos 3 X 1 Palmeiras; São Paulo 3 X 1 Corinthians; Grêmio 0 X 0 Internacional; Atlético MG 3 X 2 Cruzeiro; Portuguesa 0 X 0 Ponte Preta, Coritiba 3 X 0 Figueirense; Náutico 1 X 0 Sport; e Atlético Goianiense 0 X 1 Bahia."
+    },{
+        "ano" : 2013,
+        "1-lugar" : {
+            "time": "Cruzeiro",
+            "sigla": "CRU"    
+        },
+        "2-lugar" : "Grêmio",
+        "3-lugar" : "Atlético Paranaense",
+        "artilheiro" : {
+            "nome" : "Ederson",
+            "time" : "Atlético Paranaense",
+            "gols" : 21
+        },
+        "descricao": "Após o fim do Brasileirão, a Portuguesa foi denunciada pela Procuradoria Geral do Superior Tribunal de Justiça Desportiva (STJD) por ter escalado um jogador irregularmente. O atleta havia sido expulso na 36° rodada e deveria cumprir duas rodadas de suspensão, mas ficou fora por apenas uma partida e entrou em campo irregularmente. O clube foi punido com a perda de 4 pontos, caindo da 12ª para a 17ª posição na tabela e consequentemente rebaixado para a série B. O Flamengo também escalou um jogador irregular e foi punido com a perda de 4 pontos, caindo da 11ª para a 16ª posição, apenas uma posição fora da zona de rebaixamento. Com toda esta movimentação na tabela, o Fluminense escapou do rebaixamento terminando o campeonato oficialmente na 15ª colocação."
+    },{
+        "ano" : 2014,
+        "1-lugar" : {
+            "time": "Cruzeiro",
+            "sigla": "CRU"    
+        },
+        "2-lugar" : "São Paulo",
+        "3-lugar" : "Internacional",
+        "artilheiro" : {
+            "nome" : "Fred",
+            "time" : "Fluminense",
+            "gols" : 18
+        },
+        "descricao": "Três dias antes do início do Brasileirão, o Icasa obteve uma liminar na justiça que o colocava na série A em 2014. O clube alegou que o Figueirense (4º colocado na série B do Brasileirão de 2013) escalou um jogador irregular em um jogo que aconteceu em maio de 2013. O Icasa pedia que o acesso fosse dado a ele, como 5º colocado da competição. O STJD constatou a irregularidade, mas não favoreceu o clube cearense por entender que o prazo para entrada da ação havia prescrito. Assim, o Icasa disputou a série B em 2013 e o Figueirense, a série A."
+    },{
+        "ano" : 2015,
+        "1-lugar" : {
+            "time": "Corinthians",
+            "sigla": "COR"    
+        },
+        "2-lugar" : "Atlético-MG",
+        "3-lugar" : "Grêmio",
+        "artilheiro" : {
+            "nome" : "Ricardo Oliveira",
+            "time" : "Santos",
+            "gols" : 20
+        },
+        "descricao": "O Corinthians entrou para a história da competição. Com o Tite como técnico o Timão, terminou com o melhor ataque, a melhor defesa, melhor saldo de gols e a melhor campanha dos pontos corridos até aquele ano. Foi também o melhor mandante, melhor visitante, além de ser o time que menos levou cartões amarelos e vermelhos, com apenas 64 e 2, respectivamente. Com um aproveitamento de 71,1%, em 38 rodadas o clube perdeu apenas cinco partidas, empatou nove vezes e saiu com a vitória de campo em 24 jogos. "
+    },{
+        "ano" : 2016,
+        "1-lugar" : {
+            "time": "Palmeiras",
+            "sigla": "PAL"    
+        },
+        "2-lugar" : "Santos",
+        "3-lugar" : "Flamengo",
+        "artilheiro" : {
+            "nome" : "Diego Souza ",
+            "time" : "Sport",
+            "gols" : 14
+        },
+        "descricao": "O Palmeiras venceu seu nono título brasileiro, depois de 18 anos na fila. O título foi conquistado na penúltima rodada em uma partida contra a Chapecoense. Dois dias após esse jogo, a delegação da Chapecoense viajava para a disputa da final da Sul-Americana quando sofreu um acidente aéreo. A última rodada do Brasileirão quase foi cancelada, o que causou reclamações da equipe do Internacional que ainda tinha chances de fugir da zona de rebaixamento. No fim a CBF decidiu por adiar a rodada final e o campeonato terminou apenas em 11/12/2016 em luto por todas as 73 vidas perdidas no acidente."
+    },{
+        "ano" : 2017,
+        "1-lugar" : {
+            "time": "Corinthians",
+            "sigla": "COR"    
+        },
+        "2-lugar" : "Palmeiras",
+        "3-lugar" : "Santos",
+        "artilheiro" : {
+            "nome" : "Jô ",
+            "time" : "Corinthians",
+            "gols" : 18
+        },
+        "descricao": "Em 2017, com Carille como técnico, o Corinthians conquistou seu sétimo título do Brasileirão. O clube entrou para a história sendo o primeiro da era dos pontos corridos a terminar o primeiro turno invicto. O Timão assumiu a liderança na 5ª rodada da competição e se sagrou campeão 3 rodadas antes do fim do campeonato"
+    },{
+        "ano" : 2018,
+        "1-lugar" : {
+            "time": "Palmeiras",
+            "sigla": "PAL"    
+        },
+        "2-lugar" : "Flamengo",
+        "3-lugar" : "Internacional",
+        "artilheiro" : {
+            "nome" : "Gabigol ",
+            "time" : "Santos",
+            "gols" : 18
+        },
+        "descricao": "O Palmeiras conquistou seu nono título do Brasileirão, se isolando como maior campeão da competição unificada. O título foi definido na penúltima rodada, com oito pontos de diferença para o Flamengo. Apesar do título, o Palmeiras não fez nenhuma “grande” campanha: nenhum dos seus jogadores entrou no ranking dos cinco maiores artilheiros da competição em 2018. Dudu foi o maior destaque, sendo o jogador que deu mais assistências para o gol, com 14 no total."
+    },{
+        "ano" : 2019,
+        "1-lugar" : {
+            "time": "Flamengo",
+            "sigla": "FLA"    
+        },
+        "2-lugar" : "Santos",
+        "3-lugar" : "Palmeiras",
+        "artilheiro" : {
+            "nome" : "Gabigol",
+            "time" : "Flamengo",
+            "gols" : 25
+        },
+        "descricao": "Com um campanha inesquecível, tanto para a história do Brasileirão, quanto para a história do Flamengo, o título Rubro-Negro foi conquistado com quatro rodadas de antecedência e menos de 24 horas depois da conquista do títulos da Libertadores. O Mengão se tornou o primeiro clube desde 1963 a conquistar um título nacional e continental no mesmo ano. Ainda bateu o recorde de pontos conquistados em uma única edição do Brasileirão na era dos pontos corridos de 20 clubes. Foram 90 pontos conquistados em 38 rodadas, com apenas 4 derrotas e 6 empates."
+    },{
+        "ano" : 2020,
+        "1-lugar" : {
+            "time": "Flamengo",
+            "sigla": "FLA"    
+        },
+        "2-lugar" : "Internacional",
+        "3-lugar" : "Atlético MG",
+        "artilheiro" : {
+            "nome" : "Claudinho ",
+            "time" : "Bragantino",
+            "gols" : 18
+        },
+        "descricao": "Essa temporada foi difícil para todos os clubes. Devido a pandemia de covid-19, foi adiado só começou realmente em 8 de Agosto. Todos os 380 jogos da competição ocorreram com portões fechados para o público. O campeonato foi disputado até os últimos minutos, literalmente. Flamengo e Internacional chegaram na última rodada com chances de título. O Rubro-Negro era o líder, mas perdeu a última partida do campeonato por 2 X 1 para o São Paulo, o que daria a chance do título ao Inter, que precisava ganhar do Corinthians. O Colorado não conseguiu vencer o Timão ficando no 0 X 0, e o Flamengo, que acompanhou o final do jogo do Inter pelo telão do estádio após o fim de sua própria partida, sagrou-se campeão nacional mais uma vez."
+    },{
+        "ano" : 2021,
+        "1-lugar" : {
+            "time": "Atlético-MG",
+            "sigla": "ATL"    
+        },
+        "2-lugar" : "Flamengo",
+        "3-lugar" : "Palmeiras",
+        "artilheiro" : {
+            "nome" : "Hulk",
+            "time" : "Atlético-MG",
+            "gols" : 19
+        },
+        "descricao": "Cinquenta anos depois do primeiro seu primeiro e único título Brasileiro, o Atlético Mineiro conquistou o sonhado bicampeonato. Foi time com mais vitórias, 26 no total, e com apenas 6 empates e 6 derrotas em toda a competição. A temporada de 2021 foi histórica para o Galo, com o clube conquistando também o Campeonato Mineiro, além do seu segundo título da Copa do Brasil."
+    }
+]

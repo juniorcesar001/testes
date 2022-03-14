@@ -1,0 +1,166 @@
+
+// sass --watch assets/css/scss/home.min.scss:assets/css/home.min.css
+
+$vitrine-blue: #192C53;
+$vitrine-gray: #747474;
+
+@import "font";
+
+body {
+    background: rgb(241, 241, 241);
+    * {
+        font-family: 'Gotham';
+    }
+}
+.destaque {
+    
+    &-header {
+        width: 100%;
+        background-color: $vitrine-blue;
+        border-radius: 10px;
+        .d-flex {
+            justify-content: center;
+
+        }
+        &-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35%;
+        }
+        &-clock {
+
+        }
+
+        &-subtitle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35%;
+            h3 {
+                width: 78%;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                color: #FFF;
+            }
+        }
+    }
+    &-vitrine {
+        display: flex;
+        margin-top: 25px;
+        
+        .item {
+            padding: 15px;
+            background: #fff;
+            width: 250px;
+            a {
+                display: block;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            &-offer {
+                display: flex;
+                justify-content: space-between;
+                padding: 5px;
+                background-color: $vitrine-blue;
+                border-radius: 4px;
+                color: #FFF;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                i {
+                    display: block;
+                    background-color: antiquewhite;
+                    width: 27px;
+                    height: 27px;
+                }
+            }
+            &-image {
+                width: 100%;
+                margin-top: 7px;
+            }
+            &-title {
+                margin-top: 15px;
+                h4 {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: $vitrine-gray;
+                }
+            }
+            &-price {
+                &-old {
+                    display: block;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-decoration-line: line-through;
+                }
+                &-now {
+                    display: block;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #192C53;
+                }
+                &-avista {
+                    span {
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 12px;
+                        color: #192C53;
+                    }
+                }
+            }
+            &-variants {
+                .variants-item {
+                    display: flex;
+                    margin: 0 -10px;
+                    .slick-arrow {
+                        background: none;
+                        border: none;
+                    }
+                    .slick-list {
+                        button {
+                            margin: 0 5px;
+                            border-radius: 4px;
+                            font-weight: 400;
+                            font-size: 10px;
+                            line-height: 12px;
+                            text-align: center;
+                            padding: 12px 20px;
+                            background: none;
+                            border: 1px solid #B9B9B9;
+                        }
+                    }
+                }
+            }
+            &-actions {
+                margin-top: 15px;
+                button {
+                    display: flex;
+                    justify-content: center;
+                    padding: 10px;
+                    width: 100%;
+                    background: #FFF;
+                    border: 1px solid #B9B9B9;
+                    border-radius: 4px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #172047;
+                    &:focus {
+                        border: 1px solid #B9B9B9;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    
+}

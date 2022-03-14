@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/js/vendor/bootstrap-4.4.1/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/js/vendor/slick/slick.css">
+    <link rel="stylesheet" href="assets/js/vendor/jquery-ui-1.12.1/jquery-ui.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="assets/css/home.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="destaque mt-2">
+        <div class="destaque-header">
+            <div class="d-flex">
+                <div class="destaque-header-title">
+                    <img src="img/destaque.png" alt="Destaque do Dia">
+                </div>
+                <div class="destaque-header-clock">
+                    <img class="clock" src="img/clock.png" alt="Relógio">
+                </div>
+                <div class="destaque-header-subtitle">
+                    <h3>Ofertas separadas diariamente para você aproveitar</h3>
+                </div>
+            </div>
+        </div>
+        <div class="destaque-vitrine">
+            <div class="item" itemscope itemtype="http://schema.org/Product" itemid="XXXXX">
+                <a href="#">
+                    <div class="item-offer">
+                        <span>35%OFF</span>
+                        <i class="icon-vitrine-check"></i>
+                    </div>
+                    <div class="item-image">
+                        <img itemprop="image"  data-original="XXXXX" class="lazy img-fluid" src="img/foto-thumb.png" alt="XXXX" title="XXXXX">
+                    </div>
+                    <div class="item-title">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipiscing elit</h4>
+                    </div>
+                    <div class="item-price">
+                        <span class="item-price-old">R$000,00</span>
+                        <span class="item-price-now">R$000,00</span>
+                        <div class="item-price-avista">
+                            <span class="item-price-avista-money">R$ 00,00</span>
+                            <span class="item-price-avista-msg">á vista com desconto via pix</span>
+                        </div>
+                    </div>
+                </a>
+                <!-- Metas itemprop -->
+                <meta itemprop="productID" content="{{ product.id }}"/>
+                <meta itemprop="sku" content="{{ product.id }}"/>
+                <meta itemprop="gtin14" content="{{ product.ean }}">
+                <meta itemprop="description" content="{{ product.description_small }}">
+                <span itemprop="brand" itemscope itemtype="http://schema.org/Organization">
+                    <meta itemprop="name" content="{{ product.brand }}"/>
+                </span>
+                <!-- Variants -->
+                <div class="item-variants">
+                    <div class="item-variants-slider">
+
+                        <div class="variants-item">
+                            <button type="button" data-variant="XXXX">P</button>
+                            <button type="button" data-variant="XXXX">M</button>
+                            <button type="button" data-variant="XXXX">G</button>
+                            <button type="button" data-variant="XXXX">XG</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-actions">
+                    <button type="button" class="btn-add-to-cart d-flex align-items-center justify-content-center" data-product="XXXX"><i class="icon-cart-add"></i>Adicionar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/js/vendor/slick/slick.min.js"></script>
+
+<script src="assets/js/modules/home.js"></script>
+
+</body>
+</html>
