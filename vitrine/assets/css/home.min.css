@@ -1,53 +1,60 @@
+@charset "UTF-8";
 @font-face {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   src: url("fonts/gotham/Gotham-Black.eot?v2");
   /* IE9 Compat Modes */
   src: url("fonts/gotham/Gotham-Black.eot?v2#iefix") format("embedded-opentype"), url("fonts/gotham/Gotham-Black.woff2?v2") format("woff2"), url("fonts/gotham/Gotham-Black.woff?v2") format("woff"), url("fonts/gotham/Gotham-Black.ttf?v2") format("truetype"), url("fonts/gotham/Gotham-Black.svg?v2#svgGotham") format("svg");
   /* Legacy iOS */
   font-weight: 900;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   src: url("fonts/gotham/Gotham-Bold.eot?v2");
   /* IE9 Compat Modes */
   src: url("fonts/gotham/Gotham-Bold.eotv2?#iefix") format("embedded-opentype"), url("fonts/gotham/Gotham-Bold.woff2?v2") format("woff2"), url("fonts/gotham/Gotham-Bold.woff?v2") format("woff"), url("fonts/gotham/Gotham-Bold.ttf?v2") format("truetype"), url("fonts/gotham/Gotham-Bold.svg?v2#svgGotham") format("svg");
   /* Legacy iOS */
   font-weight: 700;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   src: url("fonts/gotham/Gotham-Book.eot?v2");
   /* IE9 Compat Modes */
   src: url("fonts/gotham/Gotham-Book.eot?v2#iefix") format("embedded-opentype"), url("fonts/gotham/Gotham-Book.woff2?v2") format("woff2"), url("fonts/gotham/Gotham-Book.woff?v2") format("woff"), url("fonts/gotham/Gotham-Book.ttf?v2") format("truetype"), url("fonts/gotham/Gotham-Book.svg?v2#svgGotham") format("svg");
   /* Legacy iOS */
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   src: url("fonts/gotham/Gotham-Light.eot?v2");
   /* IE9 Compat Modes */
   src: url("fonts/gotham/Gotham-Light.eot?v2#iefix") format("embedded-opentype"), url("fonts/gotham/Gotham-Light.woff2?v2") format("woff2"), url("fonts/gotham/Gotham-Light.woff?v2") format("woff"), url("fonts/gotham/Gotham-Light.ttf?v2") format("truetype"), url("fonts/gotham/Gotham-Light.svg?v2#svgGotham") format("svg");
   /* Legacy iOS */
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'Gotham';
+  font-family: "Gotham";
   src: url("fonts/gotham/Gotham-Medium.eot?v3");
   /* IE9 Compat Modes */
   src: url("fonts/gotham/Gotham-Medium.eot?v3#iefix") format("embedded-opentype"), url("fonts/gotham/Gotham-Medium.woff2?v3") format("woff2"), url("fonts/gotham/Gotham-Medium.woff?v3") format("woff"), url("fonts/gotham/Gotham-Medium.ttf?v3") format("truetype"), url("fonts/gotham/Gotham-Medium.svg?v3#svgGotham") format("svg");
   /* Legacy iOS */
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
-  font-family: 'icons-futfanatics';
+  font-family: "icons-futfanatics";
   src: url("fonts/icons/icons-futfanatics.eot?roql06");
   src: url("fonts/icons/icons-futfanatics.eot?roql06#iefix") format("embedded-opentype"), url("fonts/icons/icons-futfanatics.ttf?roql06") format("truetype"), url("fonts/icons/icons-futfanatics.woff?roql06") format("woff"), url("fonts/icons/icons-futfanatics.svg?roql06#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
-  font-display: block; }
-[class^="icon-"], [class*=" icon-"] {
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icons-futfanatics' !important;
+  font-family: "icons-futfanatics" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -56,437 +63,609 @@
   line-height: 1;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .icon-tiktok1:before {
-  content: "\e968"; }
+  content: "";
+}
 
 .icon-atendimento:before {
-  content: "\e900"; }
+  content: "";
+}
 
 .icon-cart:before {
-  content: "\e901"; }
+  content: "";
+}
 
 .icon-facebook:before {
-  content: "\e902"; }
+  content: "";
+}
 
 .icon-instagram:before {
-  content: "\e903"; }
+  content: "";
+}
 
 .icon-trash:before {
-  content: "\e904"; }
+  content: "";
+}
 
 .icon-search:before {
-  content: "\e905"; }
+  content: "";
+}
 
 .icon-add:before {
-  content: "\e906"; }
+  content: "";
+}
 
 .icon-remove:before {
-  content: "\e907"; }
+  content: "";
+}
 
 .icon-logo-fut:before {
-  content: "\e908"; }
+  content: "";
+}
 
 .icon-menu:before {
-  content: "\e909"; }
+  content: "";
+}
 
 .icon-close:before {
-  content: "\e90a"; }
+  content: "";
+}
 
 .icon-arrow-down:before {
-  content: "\e90b"; }
+  content: "";
+}
 
 .icon-arrow-up:before {
-  content: "\e90c"; }
+  content: "";
+}
 
 .icon-arrow-left:before {
-  content: "\e90d"; }
+  content: "";
+}
 
 .icon-arrow-right:before {
-  content: "\e90e"; }
+  content: "";
+}
 
 .icon-twitter:before {
-  content: "\e90f"; }
+  content: "";
+}
 
 .icon-user:before {
-  content: "\e910"; }
+  content: "";
+}
 
 .icon-youtube:before {
-  content: "\e911"; }
+  content: "";
+}
 
 .icon-dropdown:before {
-  content: "\e912"; }
+  content: "";
+}
 
 .icon-futcreator:before {
-  content: "\e913"; }
+  content: "";
+}
 
 .icon-g360:before {
-  content: "\e914"; }
+  content: "";
+}
 
 .icon-arrow-down-fill:before {
-  content: "\e915"; }
+  content: "";
+}
 
 .icon-playstore:before {
-  content: "\e962"; }
+  content: "";
+}
 
 .icon-apple:before {
-  content: "\e964"; }
+  content: "";
+}
 
 .icon-cadastre-se:before {
-  content: "\e965"; }
+  content: "";
+}
 
 .icon-facebook1:before {
-  content: "\e966"; }
+  content: "";
+}
 
 .icon-hang-loose:before {
-  content: "\e924"; }
+  content: "";
+}
 
 .icon-onbongo:before {
-  content: "\e960"; }
+  content: "";
+}
 
 .icon-hurley:before {
-  content: "\e961"; }
+  content: "";
+}
 
 .icon-o-neill:before {
-  content: "\e95f"; }
+  content: "";
+}
 
 .icon-coca-cola-2:before {
-  content: "\e967"; }
+  content: "";
+}
 
 .icon-super-bolla:before {
-  content: "\e944"; }
+  content: "";
+}
 
 .icon-link-inter:before {
-  content: "\e959"; }
+  content: "";
+}
 
 .icon-fut:before {
-  content: "\e954"; }
+  content: "";
+}
 
 .icon-headset:before {
-  content: "\e917"; }
+  content: "";
+}
 
 .icon-chat:before {
-  content: "\e918"; }
+  content: "";
+}
 
 .icon-email:before {
-  content: "\e919"; }
+  content: "";
+}
 
 .icon-frete:before {
-  content: "\e94d"; }
+  content: "";
+}
 
 .icon-original:before {
-  content: "\e955"; }
+  content: "";
+}
 
 .icon-pagamento:before {
-  content: "\e956"; }
+  content: "";
+}
 
 .icon-porcentagem:before {
-  content: "\e957"; }
+  content: "";
+}
 
 .icon-troca:before {
-  content: "\e958"; }
+  content: "";
+}
 
 .icon-ruler:before {
-  content: "\e951"; }
+  content: "";
+}
 
 .icon-braziline:before {
-  content: "\e952"; }
+  content: "";
+}
 
 .icon-retromania:before {
-  content: "\e953"; }
+  content: "";
+}
 
 .icon-play:before {
-  content: "\e94f"; }
+  content: "";
+}
 
 .icon-cart-add:before {
-  content: "\e950"; }
+  content: "";
+}
 
 .icon-mitchell-ness:before {
-  content: "\e930"; }
+  content: "";
+}
 
 .icon-kanxa:before {
-  content: "\e94c"; }
+  content: "";
+}
 
 .icon-topper:before {
-  content: "\e94e"; }
+  content: "";
+}
 
 .icon-adidas:before {
-  content: "\e916"; }
+  content: "";
+}
 
 .icon-asics:before {
-  content: "\e91a"; }
+  content: "";
+}
 
 .icon-coca-cola:before {
-  content: "\e91b"; }
+  content: "";
+}
 
 .icon-dal-ponte:before {
-  content: "\e91c"; }
+  content: "";
+}
 
 .icon-diadora:before {
-  content: "\e91d"; }
+  content: "";
+}
 
 .icon-dryworld:before {
-  content: "\e91e"; }
+  content: "";
+}
 
 .icon-ecko:before {
-  content: "\e91f"; }
+  content: "";
+}
 
 .icon-errea:before {
-  content: "\e920"; }
+  content: "";
+}
 
 .icon-everlast:before {
-  content: "\e921"; }
+  content: "";
+}
 
 .icon-fatal:before {
-  content: "\e922"; }
+  content: "";
+}
 
 .icon-fila:before {
-  content: "\e923"; }
+  content: "";
+}
 
 .icon-hang-loose:before {
-  content: "\e924"; }
+  content: "";
+}
 
 .icon-hd:before {
-  content: "\e925"; }
+  content: "";
+}
 
 .icon-icone-sports:before {
-  content: "\e926"; }
+  content: "";
+}
 
 .icon-joma:before {
-  content: "\e927"; }
+  content: "";
+}
 
 .icon-kagiva:before {
-  content: "\e928"; }
+  content: "";
+}
 
 .icon-karilu:before {
-  content: "\e929"; }
+  content: "";
+}
 
 .icon-kelme:before {
-  content: "\e92a"; }
+  content: "";
+}
 
 .icon-kempa:before {
-  content: "\e92b"; }
+  content: "";
+}
 
 .icon-kickball:before {
-  content: "\e92c"; }
+  content: "";
+}
 
 .icon-live-up:before {
-  content: "\e92d"; }
+  content: "";
+}
 
 .icon-lotto:before {
-  content: "\e92e"; }
+  content: "";
+}
 
 .icon-lupo:before {
-  content: "\e92f"; }
+  content: "";
+}
 
 .icon-mizuno:before {
-  content: "\e931"; }
+  content: "";
+}
 
 .icon-muvin:before {
-  content: "\e932"; }
+  content: "";
+}
 
 .icon-new-balance:before {
-  content: "\e933"; }
+  content: "";
+}
 
 .icon-new-era:before {
-  content: "\e934"; }
+  content: "";
+}
 
 .icon-numer:before {
-  content: "\e935"; }
+  content: "";
+}
 
 .icon-olympikus:before {
-  content: "\e936"; }
+  content: "";
+}
 
 .icon-oxn:before {
-  content: "\e937"; }
+  content: "";
+}
 
 .icon-penalty:before {
-  content: "\e938"; }
+  content: "";
+}
 
 .icon-poker:before {
-  content: "\e939"; }
+  content: "";
+}
 
 .icon-puma:before {
-  content: "\e93a"; }
+  content: "";
+}
 
 .icon-reebok:before {
-  content: "\e93b"; }
+  content: "";
+}
 
 .icon-kappa:before {
-  content: "\e93c"; }
+  content: "";
+}
 
 .icon-mormaii:before {
-  content: "\e93d"; }
+  content: "";
+}
 
 .icon-reusch:before {
-  content: "\e93e"; }
+  content: "";
+}
 
 .icon-rinat:before {
-  content: "\e93f"; }
+  content: "";
+}
 
 .icon-spalding:before {
-  content: "\e940"; }
+  content: "";
+}
 
 .icon-speedo:before {
-  content: "\e941"; }
+  content: "";
+}
 
 .icon-spr:before {
-  content: "\e942"; }
+  content: "";
+}
 
 .icon-starter:before {
-  content: "\e943"; }
+  content: "";
+}
 
 .icon-three-stars:before {
-  content: "\e945"; }
+  content: "";
+}
 
 .icon-tm7:before {
-  content: "\e946"; }
+  content: "";
+}
 
 .icon-uhlsport:before {
-  content: "\e947"; }
+  content: "";
+}
 
 .icon-umbro:before {
-  content: "\e948"; }
+  content: "";
+}
 
 .icon-under-armour:before {
-  content: "\e949"; }
+  content: "";
+}
 
 .icon-volcom:before {
-  content: "\e94a"; }
+  content: "";
+}
 
 .icon-wilson:before {
-  content: "\e94b"; }
+  content: "";
+}
 
 .icon-lock:before {
-  content: "\f023"; }
+  content: "";
+}
 
 .icon-nicoboco:before {
-  content: "\e95a"; }
+  content: "";
+}
 
 .icon-converse:before {
-  content: "\e95b"; }
+  content: "";
+}
 
 .icon-placar:before {
-  content: "\e95c"; }
+  content: "";
+}
 
 .icon-oakley:before {
-  content: "\e95d"; }
+  content: "";
+}
 
 .icon-dray:before {
-  content: "\e95e"; }
+  content: "";
+}
 
 body {
-  background: #f1f1f1; }
-  body * {
-    font-family: 'Gotham'; }
+  background: #f1f1f1;
+}
+body * {
+  font-family: "Gotham";
+}
 
 .destaque-header {
   width: 100%;
   background-color: #192C53;
-  border-radius: 10px; }
-  .destaque-header .d-flex {
-    justify-content: center; }
-  .destaque-header-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35%; }
-  .destaque-header-subtitle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35%; }
-    .destaque-header-subtitle h3 {
-      width: 78%;
-      font-weight: 600;
-      font-size: 20px;
-      line-height: 24px;
-      color: #FFF; }
+  border-radius: 10px;
+}
+.destaque-header .d-flex {
+  justify-content: center;
+}
+.destaque-header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+.destaque-header-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+.destaque-header-subtitle h3 {
+  width: 78%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFF;
+}
 .destaque-vitrine {
   display: flex;
-  margin-top: 25px; }
-  .destaque-vitrine .item {
-    padding: 15px;
-    background: #fff;
-    width: 250px; }
-    .destaque-vitrine .item a {
-      display: block; }
-      .destaque-vitrine .item a:hover {
-        text-decoration: none; }
-    .destaque-vitrine .item-offer {
-      display: flex;
-      justify-content: space-between;
-      padding: 5px;
-      background-color: #192C53;
-      border-radius: 4px;
-      color: #FFF;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px; }
-      .destaque-vitrine .item-offer i {
-        display: block;
-        background-color: antiquewhite;
-        width: 27px;
-        height: 27px; }
-    .destaque-vitrine .item-image {
-      width: 100%;
-      margin-top: 7px; }
-    .destaque-vitrine .item-title {
-      margin-top: 15px; }
-      .destaque-vitrine .item-title h4 {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        color: #747474; }
-    .destaque-vitrine .item-price-old {
-      display: block;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 14px;
-      text-decoration-line: line-through; }
-    .destaque-vitrine .item-price-now {
-      display: block;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 29px;
-      color: #192C53; }
-    .destaque-vitrine .item-price-avista span {
-      font-weight: 400;
-      font-size: 10px;
-      line-height: 12px;
-      color: #192C53; }
-    .destaque-vitrine .item-variants .variants-item {
-      display: flex;
-      margin: 0 -10px; }
-      .destaque-vitrine .item-variants .variants-item .slick-arrow {
-        background: none;
-        border: none; }
-      .destaque-vitrine .item-variants .variants-item .slick-list button {
-        margin: 0 5px;
-        border-radius: 4px;
-        font-weight: 400;
-        font-size: 10px;
-        line-height: 12px;
-        text-align: center;
-        padding: 12px 20px;
-        background: none;
-        border: 1px solid #B9B9B9; }
-    .destaque-vitrine .item-actions {
-      margin-top: 15px; }
-      .destaque-vitrine .item-actions button {
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-        width: 100%;
-        background: #FFF;
-        border: 1px solid #B9B9B9;
-        border-radius: 4px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        color: #172047; }
-        .destaque-vitrine .item-actions button:focus {
-          border: 1px solid #B9B9B9; }
+  margin-top: 25px;
+}
+.destaque-vitrine .item {
+  padding: 15px;
+  background: #fff;
+  width: 250px;
+  border-radius: 10px;
+}
+.destaque-vitrine .item a {
+  display: block;
+}
+.destaque-vitrine .item a:hover {
+  text-decoration: none;
+}
+.destaque-vitrine .item-offer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: #192C53;
+  border-radius: 4px;
+}
+.destaque-vitrine .item-offer span {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 18px;
+}
+.destaque-vitrine .item-offer .icon-vitrine-check {
+  background-image: url("../../img/check.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  width: 27px;
+  height: 27px;
+}
+.destaque-vitrine .item-image {
+  width: 100%;
+  margin-top: 7px;
+}
+.destaque-vitrine .item-title {
+  margin-top: 15px;
+}
+.destaque-vitrine .item-title h4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #747474;
+}
+.destaque-vitrine .item-price-old {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration-line: line-through;
+  color: #747474;
+}
+.destaque-vitrine .item-price-now {
+  display: block;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 18px;
+  color: #192C53;
+}
+.destaque-vitrine .item-price-avista span {
+  font-weight: 500;
+  font-size: 10px;
+  color: #192C53;
+}
+.destaque-vitrine .item-variants {
+  margin-top: 10px;
+}
+.destaque-vitrine .item-variants .variants-item {
+  display: flex;
+  margin: 0 -10px;
+}
+.destaque-vitrine .item-variants .variants-item .slick-arrow {
+  background: none;
+  border: none;
+}
+.destaque-vitrine .item-variants .variants-item .slick-arrow:focus {
+  outline: none;
+}
+.destaque-vitrine .item-variants .variants-item .slick-arrow:hover {
+  color: #192C53;
+}
+.destaque-vitrine .item-variants .variants-item .slick-arrow.slick-disabled {
+  opacity: 0.5;
+}
+.destaque-vitrine .item-variants .variants-item .slick-list .slick-slide {
+  margin: 0 5px;
+}
+.destaque-vitrine .item-variants .variants-item .slick-list button {
+  width: 100%;
+  height: 36px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  padding: 0px;
+  background: none;
+  border: 1px solid #B9B9B9;
+}
+.destaque-vitrine .item-variants .variants-item .slick-list button:hover, .destaque-vitrine .item-variants .variants-item .slick-list button.selected {
+  color: white;
+  border-color: #192C53;
+  background: #192C53;
+}
+.destaque-vitrine .item-variants .variants-item .slick-list button.not-selected {
+  border-color: red;
+}
+.destaque-vitrine .item-variants .variants-item .slick-list button:focus {
+  outline: none;
+}
+.destaque-vitrine .item-actions {
+  margin-top: 15px;
+}
+.destaque-vitrine .item-actions button {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  background: #FFF;
+  border: 1px solid #B9B9B9;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #172047;
+}
+.destaque-vitrine .item-actions button:focus {
+  border: 1px solid #B9B9B9;
+  outline: none;
+}
+.destaque-vitrine .item-actions button:hover {
+  background: #192C53;
+  color: white;
+}
+.destaque-vitrine .item-actions button i {
+  font-size: 25px;
+  margin-right: 10px;
+}
 
 /*# sourceMappingURL=home.min.css.map */
