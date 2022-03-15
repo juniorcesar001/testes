@@ -27,6 +27,10 @@ body {
             justify-content: center;
             align-items: center;
             width: 35%;
+            img {
+                height: 70px;
+            }
+
         }
         &-clock {
 
@@ -49,8 +53,14 @@ body {
     &-vitrine {
         display: flex;
         margin-top: 25px;
+        width: 100%;
+
+        > .slick-list {
+            min-width: 100%;
+        }
         
         .item {
+            
             padding: 15px;
             background: #fff;
             width: 250px;
@@ -125,6 +135,10 @@ body {
                 .variants-item {
                     display: flex;
                     margin: 0 -10px;
+
+                    .slick-list {
+                        width: 100%;
+                    }
                     .slick-arrow {
                         background: none;
                         border: none;

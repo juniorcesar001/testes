@@ -511,6 +511,9 @@ body * {
   align-items: center;
   width: 35%;
 }
+.destaque-header-title img {
+  height: 70px;
+}
 .destaque-header-subtitle {
   display: flex;
   justify-content: center;
@@ -527,6 +530,10 @@ body * {
 .destaque-vitrine {
   display: flex;
   margin-top: 25px;
+  width: 100%;
+}
+.destaque-vitrine > .slick-list {
+  min-width: 100%;
 }
 .destaque-vitrine .item {
   padding: 15px;
@@ -599,6 +606,9 @@ body * {
 .destaque-vitrine .item-variants .variants-item {
   display: flex;
   margin: 0 -10px;
+}
+.destaque-vitrine .item-variants .variants-item .slick-list {
+  width: 100%;
 }
 .destaque-vitrine .item-variants .variants-item .slick-arrow {
   background: none;

@@ -9,6 +9,7 @@
 	});
 
 	var template =
+		'<div>' +
 		'<div class="item" itemscope itemtype="http://schema.org/Product" itemid="XXXXX">' +
 			'<a class="item-link" href="#">' + 
 				'<div class="item-offer">' +
@@ -26,7 +27,7 @@
 					'<span class="item-price-now">R$000,00</span>' + 
 					'<div class="item-price-avista">' +
 						'<span class="item-price-avista-money">R$ 00,00</span>' +
-						'<span class="item-price-avista-msg">á vista com desconto via PIX</span>' +
+						'<span class="item-price-avista-msg"> á vista com desconto via PIX</span>' +
 					'</div>' +
 				'</div>' +
 			'</a>' +
@@ -45,6 +46,7 @@
 			'<div class="item-actions">' +
 				'<button type="button" class="btn-add-to-cart d-flex align-items-center justify-content-center" data-product="XXXX"><i class="icon-cart-add"></i>Adicionar</button>' +
 			'</div>' +
+		'</div>' +
 		'</div>';
 
 	var $vitrine = $('.destaque-vitrine');
@@ -76,15 +78,16 @@
 			var title = product.name;
 			var pricePromo = product.promotional_price;
 			var price = product.price;
-			var pricePIX = price * 0.95;
-			var percentDiscount = 100 - (pricePromo/price) * 100;
+			var pricePIX = pricePromo > 0 ? (pricePromo * 0.95) : (price * 0.95);
+			var percentDiscount = Math.trunc(100 - (pricePromo/price) * 100);
+			percentDiscount = percentDiscount < 100 ? percentDiscount + "%OFF" : "";
 			var payment = product.payment_option;
 
 			$template.find('.item').attr("itemid", id); 
 			
 			$template.find('.item-link').attr('href', link); //Link
 			
-			$template.find('.item-offer span').text(percentDiscount + "%OFF"); //Oferta
+			$template.find('.item-offer span').text(percentDiscount); //Oferta
 
 			//Descrição
 			$template.find('.item-image img').attr({
@@ -93,30 +96,32 @@
 				'alt' : title
 			}, link); //Image
 			$template.find('.item-title h4').text(title);
-			$template.find('.item-price .item-price-old').text(price);
-			$template.find('.item-price .item-price-now').text(pricePromo);
-			$template.find('.item-price .item-price-avista-money').text(pricePIX);
+			$template.find('.item-price .item-price-old').text(pricePromo > 0 ? "R$" + pricePromo : "");
+			$template.find('.item-price .item-price-now').text("R$" + (pricePromo > 0 ? pricePromo : price ) );
+			$template.find('.item-price .item-price-avista-money').text("R$" + pricePIX.toFixed(2));
 			// MetasTags
 			$template.find('meta[itemprop=productID]').attr("content", id);
 			$template.find('meta[itemprop=sku]').attr("content", id);
 			$template.find('meta[itemprop=gtin14]').attr("content", product.ean);
 			$template.find('meta[itemprop=description]').attr("content", product.description_small);
 			$template.find('meta[itemprop=name]').attr("content", product.brand);
-			// Slide de Variações
-			// $template.find('.item-variants-slider .variants-item').slick({
-			// 	slidesToShow: 3,
-			// 	slidesToScroll: 3,
-			// 	infinite: false,
-			// 	prevArrow: '<button class="slick-prev slick-arrow" type="button"><i class="icon-arrow-left"></i></button>',
-			// 	nextArrow: '<button class="slick-next slick-arrow" type="button"><i class="icon-arrow-right"></i></button>'
-			// });
-
-			// product.Variant.forEach(function(data){
-			// 	var bt = '<button type="button" data-variant="' + data.id + '">' + data.tamanho + '</button>';
-			// 	$$template.find('.item-variants-slider .variants-item').slick('slickAdd', bt);
-			// });
 			
-			$template.find('.btn-add-to-cart').attr("data-product", product.id);
+			// Slide de Variações
+			$template.find('.item-variants-slider .variants-item').slick({
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				infinite: false,
+				prevArrow: '<button class="slick-prev slick-arrow" type="button"><i class="icon-arrow-left"></i></button>',
+				nextArrow: '<button class="slick-next slick-arrow" type="button"><i class="icon-arrow-right"></i></button>'
+			});
+
+			product.Variant.forEach(function(data){
+				var bt = '<button type="button" data-variant="' + data.id + '">' + data.tamanho + '</button>';
+				$template.find('.item-variants-slider .variants-item').slick('slickAdd', bt);
+			});
+			
+			//$template.find('.btn-add-to-cart').attr("data-product", product.id);
+			console.log($vitrine);
 
 			$vitrine.slick('slickAdd', $template);
 
