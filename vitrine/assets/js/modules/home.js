@@ -82,7 +82,11 @@
 			]
 		});
 
-		$.get('http://localhost/futfanatics/api-infra/vitrines?ids=&pos=home&date=2022-03-15', function(data){
+		var dateNow = new Date();
+		var mouth = dateNow.getMonth() > 9 ? (dateNow.getMonth() + 1) : "0" + (dateNow.getMonth() + 1);
+		var dateFormat = dateNow.getFullYear() + "-" + mouth + "-" + dateNow.getDate();
+
+		$.get('https://apiinfra.futfanatics.app/vitrines?date='+ dateFormat +'&pos=home', function(data){
 			data = data.data;
 			console.log(data);
 
@@ -129,7 +133,7 @@
 				$template.find('meta[itemprop=description]').attr("content", product.description_small);
 				$template.find('meta[itemprop=name]').attr("content", product.brand);
 
-				$template.find('.item-variants-slider .variants-item').slick('unslick').slick('reinit').slick({
+				$template.find('.item-variants-slider .variants-item').slick({
 					slidesToShow: 3,
 					slidesToScroll: 3,
 					infinite: false,
@@ -137,9 +141,9 @@
 					nextArrow: '<button class="slick-next slick-arrow" type="button"><i class="icon-arrow-right"></i></button>'
 				});
 
-				product.Variant.forEach(function(data){
-					var bt = '<button type="button" data-variant="' + data.id + '">' + data.tamanho + '</button>';
-					$template.find('.item-variants-slider .variants-item').slick('slickAdd', bt);
+				$(product.Variant).each(function(e){
+					var bt = '<div><button type="button" data-variant="' + data.id + '">' + data.tamanho + '</button></div>';
+					$template.find('.item-variants-slider .variants-item').slick('slickAdd', bt).slick('setPosition');
 				});
 
 				$vitrine.slick('slickAdd', $template);

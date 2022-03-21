@@ -1612,10 +1612,13 @@ body * {
   display: none;
   margin-top: 15px;
   height: 36px;
+  margin: 15px -15px;
 }
 .destaque-vitrine .item-variants .variants-item {
   display: flex;
   margin: 0 -10px;
+  min-width: 100%;
+  max-height: 45px;
 }
 .destaque-vitrine .item-variants .variants-item .slick-list {
   width: 100%;
